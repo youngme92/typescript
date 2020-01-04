@@ -1,0 +1,12 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "make typescript",
+  "repository": "https://github.com/youngme92/typescript",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
+}
