@@ -6,7 +6,11 @@
   "description": "make typescript",
   "repository": "https://github.com/youngme92/typescript",
   "scripts": {
-    "start": "node index.js",
-    "prestart": "tsc"
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.0.0"
   }
-}
+ 
+  }
+
